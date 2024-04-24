@@ -18,7 +18,7 @@ public class GreetingHandler {
         final String count = request.queryParam("count")
                 .orElse("10");
         final Flux<Greeting> greetingFlux = Flux.just(
-                        "Hello Word",
+                        "Hello World",
                         "Hello user",
                         "Hello everyone",
                         "And you hello too")
